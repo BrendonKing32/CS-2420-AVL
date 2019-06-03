@@ -1,3 +1,8 @@
+//Name		:Brendon King
+//Title		:BST.cpp
+//Date		:6/2/2019
+//Assignment:Project 4
+
 #include "BST.h"
 #include <iostream>
 using namespace std;

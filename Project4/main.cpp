@@ -1,3 +1,8 @@
+//Name		:Brendon King
+//Title		:main.cpp
+//Date		:6/2/2019
+//Assignment:Project 4
+
 #include <iostream>
 #include <string>
 #include <fstream>

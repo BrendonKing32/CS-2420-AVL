@@ -1,3 +1,8 @@
+//Name		:Brendon King
+//Title		:BST.h
+//Date		:6/2/2019
+//Assignment:Project 4
+
 #pragma once
 struct Node {
 	int key;
@@ -13,22 +18,22 @@ public:
 	//basic constructor method
 	BST();
 	
-	//Function	:
-	//Purpose	:
-	//Parameters:
-	//Returns	:
+	//Function	:newNode()
+	//Purpose	:create a new node with information from file
+	//Parameters:int key
+	//Returns	:node newNode
 	Node* newNode(int key);
 	
-	//Function	:
-	//Purpose	:
-	//Parameters:
-	//Returns	:
+	//Function	:max()
+	//Purpose	:utility function to find max value
+	//Parameters:int a, int b
+	//Returns	:greater value
 	int max(int a, int b);
 	
-	//Function	:
-	//Purpose	:
-	//Parameters:
-	//Returns	:
+	//Function	:min()
+	//Purpose	:utility function to find min value
+	//Parameters:int a, int b
+	//Returns	:lesser value
 	int min(int a, int b);
 	
 	//Function  :height()
@@ -37,22 +42,22 @@ public:
 	//Returns   :none
 	int height(Node* N);
 	
-	//Function	:
-	//Purpose	:
-	//Parameters:
-	//Returns	:
+	//Function	:rightRotate()
+	//Purpose	:rotate tree according to AVL principles - right shift
+	//Parameters:node* y
+	//Returns	:node* y
 	Node* rightRotate(Node* y);
 	
-	//Function	:
-	//Purpose	:
-	//Parameters:
-	//Returns	:
+	//Function	:leftRotate()
+	//Purpose	:rotate tree according to AVL principles - left shift
+	//Parameters:Node* x
+	//Returns	:Node* x
 	Node* leftRotate(Node * x);
 	
-	//Function	:
-	//Purpose	:
-	//Parameters:
-	//Returns	:
+	//Function	:getBalance()
+	//Purpose	:get balance factor of given node
+	//Parameters:Node* n
+	//Returns	:int balance
 	int getBalance(Node* n);
 
 	//Function  :insert()
